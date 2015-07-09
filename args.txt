@@ -1,0 +1,24 @@
+/*
+
+_receivers,	// type:['array', 'string']
+protocol,		// type:'string'
+data,				// type: 'class'
+_fn,				// type:'function'
+_save				// type: 'bool'
+
+_receivers /* type:['array', 'string'] */,
+protocol /* type:'string' */,
+data /* type:'class' */,
+_fn /* type:'function' */,
+_save /* type:'bool' */
+
+_receivers /* type:['array', 'string'] */, protocol /* type:'string' */, data /* type:'class' */, _fn /* type:'function' */, _save /* type:'bool' */
+
+
+
+_receivers,	// type:['array', 'string']
+protocol,data /* type:'class' */,_fn
+_save /* type:'bool' */
+
+
+*/

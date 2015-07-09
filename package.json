@@ -1,0 +1,24 @@
+{
+  "name": "epic.optargs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "epic.util": "^1.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "optional",
+    "args",
+    "arguments",
+    "params",
+    "paramters"
+  ],
+  "author": "S",
+  "license": "ISC"
+}
