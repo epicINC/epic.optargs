@@ -1,7 +1,9 @@
 {
   "name": "epic.optargs",
   "version": "1.0.0",
-  "description": "",
+  "description": "js optional function",
+  "homepage": "http://github.com/slightboy",
+  "keywords": ["epic"],
   "main": "index.js",
   "dependencies": {
     "epic.util": "^1.0.0"
@@ -19,6 +21,15 @@
     "params",
     "paramters"
   ],
-  "author": "S",
-  "license": "ISC"
+  "author": {
+    "name": "slightboy",
+    "email": "node@slightboy.net"
+  },
+  "contributors": [
+    {
+      "name": "slightboy",
+      "email": "node@slightboy.net"
+    }
+  ],
+  "repository": "git://github.com/epicINC/epic.epic.optargs"
 }
