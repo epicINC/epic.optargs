@@ -1,32 +1,22 @@
 "use strict";
 
-class Polygon {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
-  }
+var
+  args = require('../index');
 
-  test()
-  {
-  	console.log('test');
-  }
-
-  static n()
-  {
-  	console.log('n');
-  }
-}
-
-var a = function()
+var test =
 {
-	this.b = function()
-	{
-	};
-	this.c = function()
-	{
-	};
-}
+  a: function(item, _fn)
+  {
+    console.log('a:', arguments);
+  },
+  b: function(item, _fn)
+  {
+    console.log('b:', arguments);
+  }
+};
 
-console.log(Object.getOwnPropertyNames(Polygon));
-console.log(Object.getOwnPropertyNames(Polygon.prototype));
-console.log(Object.getOwnPropertyNames(a.prototype));
+
+args.all(test);
+
+
+test.a({})

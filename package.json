@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "js optional function",
   "homepage": "http://github.com/slightboy",
-  "keywords": ["epic"],
+  "keywords": [
+    "optional",
+    "args",
+    "arguments",
+    "params",
+    "paramters"
+  ],
   "main": "index.js",
   "dependencies": {
+    "epic.jsa": "^1.0.0",
     "epic.util": "^1.0.0"
   },
   "directories": {
@@ -14,13 +21,6 @@
   "scripts": {
     "test": "mocha test"
   },
-  "keywords": [
-    "optional",
-    "args",
-    "arguments",
-    "params",
-    "paramters"
-  ],
   "author": {
     "name": "slightboy",
     "email": "node@slightboy.net"
